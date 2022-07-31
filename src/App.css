@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+body {
+  
+  font-family: 'Square Peg', cursive;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 500px;
+  
+}
+h1 {
+  text-align: center;
+}
+
+label {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+input {
+  margin-bottom: 8px;
+  height: 30px;
+}
+
+textarea {
+  margin-bottom: 8px;
+}
+
+button {
+  margin: 0 auto;
+  margin-top: 8px;
+  width: 200px;
+  height: 40px;
+  letter-spacing: 0.3ch;
+  font-family: 'Square Peg', cursive;
+}
+
+button:hover {
+background: #40fb3f;
+}
+
+.message {
+  height: 100px;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.terms {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.error {
+  color: red;
+}
